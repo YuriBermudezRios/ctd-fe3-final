@@ -23,7 +23,7 @@ const Navbar = () => {
       <Link to="/contacto">Contacto</Link>
       <Link to="/favs">Favoritos</Link>
       {/* Deberan implementar ademas la logica para cambiar de Theme con el button */}
-      <button onClick={changeTheme}>Change theme</button>
+      <button onClick={changeTheme}>{contextGlobal.theme === "dark" ? '☀️' : '🌙'} </button>
     </nav>
   )
 }

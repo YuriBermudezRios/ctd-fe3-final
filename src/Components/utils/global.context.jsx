@@ -13,7 +13,7 @@ function themeReducer(state, action){
       const newTheme = "dark"
       return newTheme
     }
-    case "dark-light": {
+    case "light-theme": {
       const newTheme = ""
       return newTheme
     }

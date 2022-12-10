@@ -25,7 +25,7 @@ const Detail = () => {
   },[])
 
   return (
-    <>
+    <div className={contextGlobal.theme}>
       <h1>Detail Dentist id </h1>
       {/* aqui deberan renderizar la informacion en detalle de un user en especifico */}
       { detail ?
@@ -47,7 +47,7 @@ const Detail = () => {
       </table>
       : ""}
       {/* Deberan mostrar el name - email - phone - website por cada user en especifico */}
-    </>
+    </div>
   )
 }
 
